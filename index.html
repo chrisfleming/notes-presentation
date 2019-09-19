@@ -1,0 +1,281 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>OSM and Notes</title>
+
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/monokai.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section data-background-image="img/planet_notes_dark.png">
+					<h2>OpenStreetMap Notes</h2>
+					<p>Examples of use and ideas for further improvements.<p>
+					<small class="float-left">
+                         <a href="https://twitter.com/chrisfl" target="_blank" rel="noopener">@chrisfl</a>
+                    </small>
+					<small class="float-right">
+                         <a href="https://twitter.com/OSMScotland" target="_blank" rel="noopener">@OSMScotland</a>
+                    </small>
+				</section>
+				<section data-background-image="img/ladybird.jpg">So what are notes?
+					<ul>
+					<li class="fragment fade-in-then-out">around 2009 a separate site OpenStreetBugs by Xav, Christoph Böhme, Emka.</li>
+					<li class="fragment fade-in-then-out">April 2013 - Notes functionality was added to OpenStreetMap website.</li>
+					<li class="fragment fade-in-then-out">May 2014 - Existing bugs had been transferred to OpenStreetMap.</li>
+					</ul>
+					<!-- image https://www.flickr.com/photos/rosemary/43461241/in/photolist-4QKvK-89MYU1-85BVri-6VYrDx-cKXqfN-89MTJ1-7dKcmk-6C7W8H-bxoqyC-cnf4V-21fPQqm-nE8Aa8-8BwPF6-BPGx-vfZU1r-4g4p5S-aPGJb2-89JGJ8-hu35m9-fsZUub-7VS7t3-saTNxa-4GwAYv-f9jHQ7-8uavww-8EQHzk-bRtsMH-fa3rx-4NLAHZ-aqU7Sk-89JSbr-jPvMh-6fTjr3-pFQpSr-8TrTYs-EsXES-pdsYtP-94avt3-6FNUgX-3FbkFh-89MTjs-9Ncq9T-K8z1n-dLHZm-9v8fFq-6id5fE-eYZcpY-7Lb2wE-89JEzK-dMwAsq -->
+					</section>
+				<section data-background-image="img/ladybird.jpg">
+				<img src="img/OpenStreetBugs_lowzoom.png">
+				</section>
+				<section>
+					<img src="img/Screenshot_2019-09-17_OpenStreetMap.png">
+					<p class="fragment fade-in">Very easy to create</p>
+				</section>
+				<section data-background-image="img/planet_notes_dark.png">
+					<ul>
+						<li class="fragment fade-in">So notes make it very easy to contribute</li>
+						<li class="fragment fade-in">and notes are highly visible</li>
+						<li class="fragment fade-in"><a href="https://www.openstreetmap.org/node/2929924836">https://www.openstreetmap.org/node/2929924836</a></li>
+					</ul>
+				</section>
+
+
+
+				<section>
+					<canvas class="stretch" data-chart="line">
+						Date,2013-04,2013-05,2013-06,2013-07,2013-08,2013-09,2013-10,2013-11,2013-12,2014-01,2014-02,2014-03,2014-04,2014-05,2014-06,2014-07,2014-08,2014-09,2014-10,2014-11,2014-12,2015-01,2015-02,2015-03,2015-04,2015-05,2015-06,2015-07,2015-08,2015-09,2015-10,2015-11,2015-12,2016-01,2016-02,2016-03,2016-04,2016-05,2016-06,2016-07,2016-08,2016-09,2016-10,2016-11,2016-12,2017-01,2017-02,2017-03,2017-04,2017-05,2017-06,2017-07,2017-08,2017-09,2017-10,2017-11,2017-12,2018-01,2018-02,2018-03,2018-04,2018-05,2018-06,2018-07,2018-08,2018-09,2018-10,2018-11,2018-12,2019-01,2019-02,2019-03,2019-04,2019-05,2019-06,2019-07,2019-08
+						Opened,867,4331,5435,8838,15020,15685,16021,14536,12771,16712,15493,16995,16983,16940,14886,17618,24265,15467,14637,14378,15454,15745,14993,15532,15314,17083,16268,17490,19152,17912,17121,15437,14601,15284,14549,15542,20857,21336,31998,40975,43942,36760,34992,32178,34751,38797,32353,37102,32019,31742,32484,37690,36438,35252,32661,31122,31828,31186,27651,29377,33038,32148,29271,32205,35767,36250,30806,27471,29375,31311,27888,34567,31189,34017,32146,34447,42478
+                        Closed,332,2415,3009,4657,9506,10731,11843,9501,9438,11965,12291,12016,12575,13098,11602,12541,17092,13823,13180,12648,13084,13503,13198,13036,13092,13080,13119,13099,15590,13952,13679,12959,13568,13313,12282,12521,15660,16785,19825,22940,26810,22252,21096,21105,22372,22206,19918,22323,24976,25415,24253,26887,27053,25923,25622,26084,25188,26255,24250,23875,26170,28047,25979,25186,32200,30892,26331,24748,25296,29124,23324,25422,28452,35070,28116,27744,36420
+					</canvas>
+				</section>
+				<section>
+						<img src="img/2019-09-19 23_41_45-closed_times-hist.png">
+				</section>
+				<section>
+					<ul> 
+						<li class="fragment fade-in">27.5 % of notes closed within 1 day</li>
+						<li class="fragment fade-in">50% within 14 days</li>
+						<li class="fragment fade-in">57% within 30 days</li>
+						<li class="fragment fade-in">90% after 430 days</li>
+					</ul>
+			x	</section>
+
+				<section>
+					<img src="img/NewsBlur.png">
+				</section>
+
+				<section data-background-image="img/edinburgh.png">
+				</section>
+
+
+				<section data-background-image="img/bruntsfield.png">
+					<a class="fragment fade-in" href="https://www.openstreetmap.org/#map=17/55.93651/-3.20717&layers=N">https://www.openstreetmap.org/#map=17/55.93651/-3.20717&layers=N</a>
+				</section>
+
+				<section data-background-image="">
+					<section>Immediate Action Notes</section>
+					<section>
+						<img src="img/immediate_action_note.png">
+						<a class="fragment fade-in" href="https://www.openstreetmap.org/note/1930124#map=13/55.9381/-3.1584&layers=N">https://www.openstreetmap.org/note/1930124#map=13/55.9381/-3.1584&layers=N</a>
+					</section>
+				</section>
+
+				<section data-background-image="">
+					<section>Immediate Action - but needs survey</section>
+					<section><img src="img/bb1.png"></section>
+					<section><img src="img/2019-09-19-strave.png"></section>
+					<section><img src="img/dickburn_crescent.jpg"></section>
+					<section><img src="img/Screenshot_2019-09-19_Note_1517307.png"></section>
+					<section><img src="img/Screenshot_2019-09-19_Note_1517307_wide.png"></section>
+				</section>
+
+				<section>
+					<section>Happening Soon</section>
+					<section><img src="img/later_note.png"></section>
+					<section><img src="img/creative_studio_fb1.png"></section>
+					<section><img src="img/creative_studio_fb2.png"></section>
+					<section><img src="img/creative_studio_3.png"></section>
+					<section><img src="img/creative_studio_4.jpg"></section>
+					<section><img src="img/creative_studio_5.jpg"></section>
+				</section>
+			
+
+				<section data-background-image="img/cranes.png">
+					<section>
+						Long Term Projects
+					</section>
+					<section>
+						Following new developments.
+					</section>
+					<section>
+						Such as this new housing development
+						<img src="img/rosewell.jpg">
+					</section>
+					<section data-background-image="img/rosewell.jpg">
+						<h3 style="color:#333">Unresolved note #852656</h3>
+						<p style="color:#333">Housing construction work ongoing here, could do with a survey soon.</p>
+						<small style="color:#333; align:right">Created by drnoble over 2 years ago </small>
+					</section>
+					<section data-background-image="img/rosewell.jpg">
+						<small style="color:#333">Comment from anonymous over 2 years ago</small>
+						<p style="color:#333">
+						Surveyed May 26th 2017. Road and path alignment improved. Additional footways added. Work continuing - will need further surveys.</p>
+					</section>
+						<section data-background-image="img/rosewell.jpg">
+						<small style="color:#333">Comment from Rostranimin over 2 years ago</small>
+						<p style="color:#333">
+						(above by me)
+Note - road alignments also may need re-survey, including the main roundabout. Aerial photography of this is not up to date yet.</p>
+					</section>
+					<section data-background-image="img/rosewell.jpg">
+						<small style="color:#333">Comment from Chris Fleming 7 months ago</small>
+						<p style="color:#333">Added roads as open and srteetnames. Roundabout looks okay. Have uplaoded photos to mapillary which should enable some housenumbering. Further surveys will be required as more gets built.</p>
+					</section>
+					<section data-background-image="img/rosewell.jpg">
+						<small style="color:#333">Comment from drnoble 18 days ago</small>
+						<p style="color:#333">Updated based on survey last weekend plus Chris' mapillary. Development still ongoing to SE</p>
+					</section>
+					<section data-background-image="img/forth_crossing.jpg">
+					</section>
+	
+	
+				</section>
+
+
+				<section>
+					<section>First Idea - use a bugtracker</section>
+				<section>
+					<img src="img/github_issues_1.png">
+				</section>
+
+				<section>
+					<img src="img/github_issues_2.png">
+				</section>
+
+				<section>
+					<img src="img/github_issues_3.png">
+				</section>
+				</section>
+				
+				<section>
+					<section>Second Idea - augment notes</section>
+					<section>Seemed like loads of time when I submitted this talk!</section>
+					<section>
+						<img src="img/map_plan.png">
+						<ul>
+							<li class="fragment fade-in">Colour notes based on age.</li>
+							<li class="fragment fade-in">Hide notes until a selected date.</li>
+						</ul>
+					</section>
+				</section>
+
+
+				<section data-background-image="img/edinburgh-coloured-ramp-notes.png"></section>
+				<section data-background-image="img/edinburgh-coloured-notes.png"></section>
+				<section data-background-image="img/closed_notes.png"></section>
+				<section data-background-image="img/open_notes.png"></section>
+				<section data-background-image="img/open_and_closed_notes.png">
+				</section>
+
+				<section data-background-image="img/closed_notes.png">
+				So:
+
+				
+				</section
+				
+				
+				>
+
+			</div>
+		</div>
+
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true },
+					{ src: 'plugin/chart/Chart.min.js' },
+					{ src: 'plugin/chart/csv2chart.js' }
+				],
+					chart: {
+		defaults: { 
+			global: { 
+				title: { fontColor: "#FFF" }, 
+				legend: {
+					labels: { fontColor: "#FFF" },
+				},
+			},
+			scale: { 
+				scaleLabel: { fontColor: "#FFF" }, 
+				gridLines: { color: "#888", zeroLineColor: "#FFF" }, 
+				ticks: { fontColor: "#888" }, 
+			} 
+		},
+
+			</div>
+		</div>
+
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true },
+					{ src: 'plugin/chart/Chart.min.js' },
+					{ src: 'plugin/chart/csv2chart.js' }
+				],
+					chart: {
+		defaults: { 
+			global: { 
+				title: { fontColor: "#FFF" }, 
+				legend: {
+					labels: { fontColor: "#FFF" },
+				},
+			},
+			scale: { 
+				scaleLabel: { fontColor: "#FFF" }, 
+				gridLines: { color: "#888", zeroLineColor: "#FFF" }, 
+				ticks: { fontColor: "#888" }, 
+			} 
+		},
+		line: { borderColor: [ "rgba(20,220,220,.8)" , "rgba(220,120,120,.8)", "rgba(20,120,220,.8)" ], "borderDash": [ [0,0], [0,0] ]}, 
+		bar: { backgroundColor: [ "rgba(20,220,220,.8)" , "rgba(220,120,120,.8)", "rgba(20,120,220,.8)" ]}, 
+		pie: { backgroundColor: [ ["rgba(0,0,0,.8)" , "rgba(220,20,20,.8)", "rgba(20,220,20,.8)", "rgba(220,220,20,.8)", "rgba(20,20,220,.8)"] ]},
+		radar: { borderColor: [ "rgba(20,220,220,.8)" , "rgba(220,120,120,.8)", "rgba(20,120,220,.8)" ]}, 
+	},
+			});
+		</script>
+	</body>
+</html>
